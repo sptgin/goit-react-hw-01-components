@@ -2,11 +2,12 @@
 import Section from './components/Section';
 import Profile from './components/Profile'
 import Statastics from './components/Statistics';
+import FriendList from './components/FriendList';
+import TransactionHistory from './components/TransactionHistory';
 import userDataForProfile from './datasource/social-profile/user.json';
 import statisticalData from './datasource/statistics/statistical-data.json';
-
-
-
+import friends from './datasource/friend-list/friends.json';
+import transactions from './datasource/transaction-history/transactions.json';
 import './App.css';
 
 function App() {
@@ -29,10 +30,14 @@ function App() {
       title="Upload stats" stats={statisticalData} 
       />
     </Section>
-    <Section title="Task 003"></Section>
-    <Section title="Task 004"></Section>
+    <Section title="Task 003">
+    <FriendList friends={friends} />
+    </Section>
+    <Section title="Task 004">
+    <TransactionHistory items={transactions}
+    />
+    </Section>
     </div>
-
  );
 }
 
