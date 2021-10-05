@@ -1,1 +1,235 @@
+.header__main {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 
+.task__section {
+  background-color: whitesmoke;
+  border: 1px solid;
+  border-color: black;
+  margin: 10px 10px 0px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.profile__card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  max-width: 255px;
+  border-color: lightgray;
+}
+
+.profile__description {
+  display: block;
+  background-color: white;
+}
+
+.profile__avatar {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.profile__name {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.profile__tag {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: grey;
+}
+
+.profile__location {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.profile__stats_list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.profile__stats_item {
+  list-style: none;
+  border: 1px solid;
+  border-color: lightgrey;
+  width: 85px;
+}
+
+.profile__stats_label {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: block;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: grey;
+}
+.profile__stats_quantity {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: block;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.statistics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  background-color: white;
+}
+.statistics__title {
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.statistics__stat-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.statistics__stat-item {
+  list-style: none;
+  background-color: rgb(47, 140, 198);
+  min-width: 65px;
+}
+.statistics__stat-label {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: block;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.statistics__stat-percentage {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.friend__list {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 0px;
+}
+.friend__list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 1px solid;
+  border-color: lightgray;
+  box-shadow: 1px 3px 5px dimgrey;
+}
+.friend__list-avatar {
+  border: 1px solid;
+  border-radius: 8%;
+  border-color: lightgray;
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+.friend__list-name {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-left: 15px;
+}
+.statusOnLine {
+  margin-left: 12px;
+  border: 12px solid;
+  border-radius: 50%;
+  border-color: green;
+}
+.statusOffLine {
+  margin-left: 12px;
+  border: 12px solid;
+  border-radius: 50%;
+  border-color: red;
+}
+.transaction-history {
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.transaction-history th {
+  padding: 15px 10px;
+  background: #27aebd;
+  font-size: large;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.transaction-history td {
+  padding: 15px 10px;
+  text-align: center;
+  font-size: medium;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+.transaction-history tbody tr:nth-child(odd) {
+  background: white;
+}
+.transaction-history tr:nth-child(even) {
+  background: lightgray;
+}

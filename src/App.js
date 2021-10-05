@@ -12,8 +12,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>React HW 001</h1>
-      <Section title="Task 001">
+      <h1 className="header__main">React HW 001</h1>
+      <Section title="Профиль социальной сети">
         <Profile
           avatar={userDataForProfile.avatar}
           name={userDataForProfile.name}

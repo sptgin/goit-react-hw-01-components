@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Section({ title, children }) {
   return (
-    <div>
+    <div className="task__section">
       {title && <h2>{title}</h2>}
       {children}
     </div>
