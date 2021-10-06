@@ -14,14 +14,16 @@ const Statastics = ({ title, stats }) => {
       <ul className="statistics__stat-list">
         {stats.map(stat => (
           <li
-            class="statistics__stat-item"
+            className="statistics__stat-item"
             style={{
               backgroundColor: getBgColor(),
             }}
             key={stat.id}
           >
-            <span class="statistics__stat-label">{stat.label}</span>
-            <span class="statistics__stat-percentage">{stat.percentage}%</span>
+            <span className="statistics__stat-label">{stat.label}</span>
+            <span className="statistics__stat-percentage">
+              {stat.percentage}%
+            </span>
           </li>
         ))}
       </ul>
